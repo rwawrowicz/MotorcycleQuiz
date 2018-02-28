@@ -19,10 +19,16 @@
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
             android:layout_margin="16dp"/>
-        
+
         <include layout="@layout/question_1_layout"/>
 
         <include layout="@layout/question_2_layout"/>
+
+        <include layout="@layout/question_3_layout"/>
+
+        <include layout="@layout/question_4_layout"/>
+
+        <include layout="@layout/question_5_layout"/>
 
         <Button
             android:layout_width="wrap_content"

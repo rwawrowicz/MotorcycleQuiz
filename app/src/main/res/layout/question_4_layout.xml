@@ -6,44 +6,45 @@
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
     android:orientation="vertical">
-    <!-- Image source: https://commons.wikimedia.org/wiki/User:Theo -->
+    <!-- Image source: By Stefan Krause, Germany - Own work,
+    CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11771234 -->
     <ImageView
-        android:id="@+id/image_1"
+        android:id="@+id/image_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/indian"
+        android:src="@drawable/boss"
         android:adjustViewBounds="true"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/question_1"
+        android:text="@string/question_4"
         android:paddingTop="16dp"
         android:paddingBottom="8dp"
         android:textSize="14sp"/>
 
     <RadioGroup
-        android:id="@+id/radio_group_1"
+        android:id="@+id/radio_group_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <RadioButton
-            android:id="@+id/radio_button_1_1"
+            android:id="@+id/radio_button_4_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/answear_1_1"/>
+            android:text="@string/answear_4_1"/>
 
         <RadioButton
-            android:id="@+id/radio_button_1_2"
+            android:id="@+id/radio_button_4_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/answear_1_2"/>
+            android:text="@string/answear_4_2"/>
 
         <RadioButton
-            android:id="@+id/radio_button_1_3"
+            android:id="@+id/radio_button_4_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/answear_1_3"
+            android:text="@string/answear_4_3"
             android:layout_marginBottom="24dp"/>
 
     </RadioGroup>

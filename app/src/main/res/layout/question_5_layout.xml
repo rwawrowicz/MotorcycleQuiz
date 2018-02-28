@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+    <!-- By Rob984 - Derived from File:Europe orthographic Caucasus Urals boundary.svg 
+    and File:Europe on the globe (red).svg.,
+    CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=40958608 -->
+    <ImageView
+        android:id="@+id/image_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/europe"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_5"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:textSize="14sp"/>
+
+
+    <CheckBox
+        android:id="@+id/checkbox_5_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answear_5_1"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_5_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answear_5_2"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_5_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answear_5_3"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_5_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answear_5_4"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_5_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answear_5_5"
+        android:layout_marginBottom="24dp"/>
+
+</LinearLayout>

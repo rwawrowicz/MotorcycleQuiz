@@ -44,7 +44,8 @@
             android:id="@+id/radio_button_2_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/answear_2_3"/>
+            android:text="@string/answear_2_3"
+            android:layout_marginBottom="24dp"/>
 
     </RadioGroup>
 
