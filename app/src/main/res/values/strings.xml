@@ -2,29 +2,29 @@
     <string name="app_name">Motorcycle Quiz</string>
     <string name="hint">Type your name</string>
     <string name="question_1">What\'s the oldest motorcycle brand in the USA?</string>
-    <string name="answear_1_1">Harley-Davidson</string>
-    <string name="answear_1_2">Victory Motorcycles</string>
-    <string name="answear_1_3">Indian</string>
+    <string name="answer_1_1">Harley-Davidson</string>
+    <string name="answer_1_2">Victory Motorcycles</string>
+    <string name="answer_1_3">Indian</string>
 
     <string name="question_2">What\s the world\'s most famous legal motorcycle street race?</string>
-    <string name="answear_2_1">Ulster GP</string>
-    <string name="answear_2_2">Isle of Man TT</string>
-    <string name="answear_2_3">Street racing is illegal</string>
+    <string name="answer_2_1">Ulster GP</string>
+    <string name="answer_2_2">Isle of Man TT</string>
+    <string name="answer_2_3">Street racing is illegal</string>
 
     <string name="question_3">What was the route of the first Dakar Rally?</string>
-    <string name="answear_3_1">Paris - Dakar</string>
-    <string name="answear_3_2">Paris - Tunis - Dakar</string>
-    <string name="answear_3_3">Paris - Algiers- Dakar</string>
+    <string name="answer_3_1">Paris - Dakar</string>
+    <string name="answer_3_2">Paris - Tunis - Dakar</string>
+    <string name="answer_3_3">Paris - Algiers- Dakar</string>
 
     <string name="question_4">What is the biggest capacity in the production motorcycle?</string>
-    <string name="answear_4_1">2294 ccm</string>
-    <string name="answear_4_2">1800 ccm</string>
-    <string name="answear_4_3">8226 ccm</string>
+    <string name="answer_4_1">2294 ccm</string>
+    <string name="answer_4_2">1800 ccm</string>
+    <string name="answer_4_3">8226 ccm</string>
 
     <string name="question_5">Which of these are european brand?</string>
-    <string name="answear_5_1">Honda</string>
-    <string name="answear_5_2">Triumph</string>
-    <string name="answear_5_3">Junak</string>
-    <string name="answear_5_4">Harley-Davidson</string>
-    <string name="answear_5_5">Kawasaki</string>
+    <string name="answer_5_1">Honda</string>
+    <string name="answer_5_2">Triumph</string>
+    <string name="answer_5_3">Junak</string>
+    <string name="answer_5_4">Harley-Davidson</string>
+    <string name="answer_5_5">Kawasaki</string>
 </resources>

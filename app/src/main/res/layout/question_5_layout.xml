@@ -29,31 +29,31 @@
         android:id="@+id/checkbox_5_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answear_5_1"/>
+        android:text="@string/answer_5_1"/>
 
     <CheckBox
         android:id="@+id/checkbox_5_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answear_5_2"/>
+        android:text="@string/answer_5_2"/>
 
     <CheckBox
         android:id="@+id/checkbox_5_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answear_5_3"/>
+        android:text="@string/answer_5_3"/>
 
     <CheckBox
         android:id="@+id/checkbox_5_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answear_5_4"/>
+        android:text="@string/answer_5_4"/>
 
     <CheckBox
         android:id="@+id/checkbox_5_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answear_5_5"
+        android:text="@string/answer_5_5"
         android:layout_marginBottom="24dp"/>
 
 </LinearLayout>
