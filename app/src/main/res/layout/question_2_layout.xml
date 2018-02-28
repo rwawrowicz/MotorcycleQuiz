@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+    <!-- Image source: By Agljones at English Wikipedia, CC BY-SA 3.0,
+     https://commons.wikimedia.org/w/index.php?curid=20334382 -->
+    <ImageView
+        android:id="@+id/image_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/isle_of_man_tt"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_2"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:textSize="14sp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_button_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answear_2_1"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answear_2_2"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answear_2_3"/>
+
+    </RadioGroup>
+
+</LinearLayout>
