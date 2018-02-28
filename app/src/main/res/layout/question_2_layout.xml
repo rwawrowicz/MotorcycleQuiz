@@ -6,6 +6,13 @@
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
     android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/darker_gray"/>
+
     <!-- Image source: By Agljones at English Wikipedia, CC BY-SA 3.0,
      https://commons.wikimedia.org/w/index.php?curid=20334382 -->
     <ImageView
