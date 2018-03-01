@@ -26,8 +26,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void question1() {
-        RadioButton answer1_3RB = findViewById(R.id.radio_button_1_3);
-        if (answer1_3RB.isChecked()){
+        EditText answer1 = findViewById(R.id.answer_1);
+        String answer = answer1.getText().toString();
+        if (answer.equalsIgnoreCase("indian")){
             points++;
         }
     }
@@ -59,21 +60,14 @@ public class MainActivity extends AppCompatActivity {
         CheckBox answer5_3CB = findViewById(R.id.checkbox_5_3);
         CheckBox answer5_4CB = findViewById(R.id.checkbox_5_4);
         CheckBox answer5_5CB = findViewById(R.id.checkbox_5_5);
-        if (answer5_1CB.isChecked()){
-            points--;
-        }
-        if (answer5_2CB.isChecked()){
+        if (!answer5_1CB.isChecked()
+                && answer5_2CB.isChecked()
+                && answer5_3CB.isChecked()
+                && !answer5_4CB.isChecked()
+                && !answer5_5CB.isChecked()){
             points++;
         }
-        if (answer5_3CB.isChecked()){
-            points++;
-        }
-        if (answer5_4CB.isChecked()){
-            points--;
-        }
-        if (answer5_5CB.isChecked()){
-            points--;
-        }
+
     }
 
     private void countPoints() {
@@ -96,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         message += "scored " + points + " points";
         if (points < 3){
             message += "\nYour knowledge is... well, let's say that you should still learn someting ;)";
-        }else if ((points >= 3) && (points < 6)) {
+        }else if ((points >= 3) && (points < 5)) {
             message += "\nYour knowledge is quite impressive";
         } else {
             message += "\nCongratulation! All answers are correct! You are an expert!";

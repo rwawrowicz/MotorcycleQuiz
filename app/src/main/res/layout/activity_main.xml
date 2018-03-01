@@ -18,7 +18,8 @@
             android:hint="@string/hint"
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
-            android:layout_margin="16dp"/>
+            android:layout_margin="16dp"
+            android:inputType="textCapWords"/>
 
         <include layout="@layout/question_1_layout"/>
 

@@ -2,9 +2,8 @@
     <string name="app_name">Motorcycle Quiz</string>
     <string name="hint">Type your name</string>
     <string name="question_1">What\'s the oldest motorcycle brand in the USA?</string>
-    <string name="answer_1_1">Harley-Davidson</string>
-    <string name="answer_1_2">Victory Motorcycles</string>
-    <string name="answer_1_3">Indian</string>
+    <string name="hint_answer_1">Type your answer</string>
+
 
     <string name="question_2">What\s the world\'s most famous legal motorcycle street race?</string>
     <string name="answer_2_1">Ulster GP</string>
@@ -21,7 +20,7 @@
     <string name="answer_4_2">1800 ccm</string>
     <string name="answer_4_3">8226 ccm</string>
 
-    <string name="question_5">Which of these are european brand?</string>
+    <string name="question_5">Which of these are European brands?</string>
     <string name="answer_5_1">Honda</string>
     <string name="answer_5_2">Triumph</string>
     <string name="answer_5_3">Junak</string>
